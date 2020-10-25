@@ -190,7 +190,7 @@ export default class Home extends Component {
             <ListGroupItem>
             <Button  style={{
           backgroundColor: "#B8583B"}} >
-            Read More
+            View More
           </Button>
           <i className="fas fa-star ml-4"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i> 
             </ListGroupItem>
@@ -209,7 +209,7 @@ export default class Home extends Component {
             <ListGroupItem>
             <Button  style={{
           backgroundColor: "#B8583B"}} >
-            Read More
+           View More
           </Button>
           <i className="fas fa-star ml-4"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i> 
             </ListGroupItem>
@@ -228,7 +228,7 @@ export default class Home extends Component {
             <ListGroupItem>
             <Button  style={{
           backgroundColor: "#B8583B"}} >
-            Read More
+            View More
           </Button>
           <i className="fas fa-star ml-4"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i> 
             </ListGroupItem>
