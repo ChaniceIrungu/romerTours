@@ -40,6 +40,17 @@
   height: 50px;
   background: rgba(179, 95, 70, 0.53);
   text-align: center;
+  overflow: hidden;
+}
+.packagesRec2 {
+  height: 60px;
+  background: rgba(123, 81, 69, 0.82);
+  text-align: center;
+  overflow: hidden;
+}
+.rec {
+  background: #7b5145;
+  overflow: hidden;
 }
 .waterfront {
   border-radius: 40px;

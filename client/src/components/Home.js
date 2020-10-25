@@ -112,7 +112,7 @@ export default class Home extends Component {
                 >
                   Unique and Unforgettable Adventures
                 </h1>
-                <p style={{fontsize:"2vw"}}>
+                <p >
                   There’s never a bad day to explore Cape Town, twice voted as
                   one of the most beautiful cities in the world. Nestled beneath
                   Table Mountain, this travel destination offers a perfect blend
@@ -130,7 +130,7 @@ export default class Home extends Component {
                 >
                   Wondering What to do in Cape Town?
                 </h1>
-                <p style={{fontsize:"2vw"}}>
+                <p >
                   Cape Town has something for every kind of traveler. This city
                   has enough destinations to satisfy even the most adventurous
                   spirit. Travel with Romer Tours and take in all the beauty
