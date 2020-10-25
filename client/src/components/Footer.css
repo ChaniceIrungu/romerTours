@@ -1,8 +1,4 @@
 .main-footer {
-  color: black;
-  background-color: #fcdbb1;
-  padding-bottom: 3rem;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  color: white;
+  background-color: rgba(123, 81, 69, 0.82);
 }

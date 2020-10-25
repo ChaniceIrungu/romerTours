@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import NavBar from "./components/NavBar";
 import Packages from "./components/Packages";
-import Destination from "./components/Destination";
+import AboutUs from "./components/AboutUs";
 import SpecialOffers from "./components/SpecialOffers";
 import Home from "./components/Home";
 import Container from "react-bootstrap/Container";
@@ -17,10 +17,10 @@ export default function App() {
       <div className="App">
         <div>
           <NavBar />
-          <div className="contentwrap">
-            <Container className="mt-4 mb-4 ml-4">
+          <div className="">
+            <Container className="mt-4 mb-4 ">
               <Switch>
-                <Route path="/Destination" component={Destination} />
+                <Route path="/AboutUs" component={AboutUs} />
                 <Route path="/Packages" component={Packages} />
                 <Route path="/SpecialOffers" component={SpecialOffers} />
                 <Route path="/" component={Home} />

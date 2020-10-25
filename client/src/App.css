@@ -1,1 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
 
+.App {
+  height: 100%;
+  background-color: #e7d9ca;
+}
+.bgimage {
+  background-image: url("./assets/sunset.JPG");
+  background-position: center center;
+  background-size: cover;
+  height: 600px;
+  overflow: hidden;
+}
+
+.rectangle {
+  display: inline-block;
+
+  height: 480px;
+  background: rgba(123, 81, 69, 0.82);
+  overflow: hidden;
+}
+.experienceSA {
+  text-align: center;
+}
+.unique {
+  text-align: center;
+}
+
+.wonder {
+  text-align: center;
+}
+.packagesRec {
+  height: 50px;
+  background: rgba(179, 95, 70, 0.53);
+  text-align: center;
+}
+.waterfront {
+  border-radius: 40px;
+}

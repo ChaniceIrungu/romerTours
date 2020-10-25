@@ -1,9 +1,19 @@
 import React from "react";
 import "./Footer.css";
+import Navbar from "react-bootstrap/Navbar";
 const Footer = () => {
   return (
-    <div className="main-footer">
-      <div className="container">
+    
+
+<Navbar
+collapseOnSelect
+expand="md"
+sticky="bottom"
+style={{
+  background: "#63312D",
+  color:"White"
+}}
+><div className="container">
         <div className="row">
           <div className="col">
             <h4> Romer Tours</h4>
@@ -25,7 +35,7 @@ const Footer = () => {
           </div>
         </div>
         <hr />
-        <div className="row">
+        <div className="row-4">
           <p className="col-sm">
             &copy;{new Date().getFullYear()} Romer Tours | All rights reserved |
             Terms Of Service | Privacy
@@ -33,7 +43,15 @@ const Footer = () => {
         </div>
         ​
       </div>
-    </div>
+
+
+
+</Navbar>
+
   );
-};
+}
+
+
+
+
 export default Footer;
