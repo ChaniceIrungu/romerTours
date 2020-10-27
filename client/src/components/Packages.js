@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import "../App.css";
-import penguin from "../assets/penguin.png";
-import Rectangle12 from "../assets/Rectangle12.png";
-import Rectangle13 from "../assets/Rectangle13.png";
-import Rectangle11 from "../assets/Rectangle11.png";
-import Rectangle15 from "../assets/Rectangle15.png";
-import Rectangle14 from "../assets/Rectangle14.png";
-import Rectangle16 from "../assets/Rectangle16.png";
-import Rectangle17 from "../assets/Rectangle17.png";
+import penguin from "../assets/penguin.JPEG";
+import Rectangle12 from "../assets/Rectangle12.JPEG";
+import Rectangle13 from "../assets/Rectangle13.JPEG";
+import Rectangle11 from "../assets/Rectangle11.JPEG";
+import Rectangle15 from "../assets/Rectangle15.JPEG";
+import Rectangle14 from "../assets/Rectangle14.JPEG";
+import Rectangle16 from "../assets/Rectangle16.JPEG";
+import Rectangle17 from "../assets/Rectangle17.JPEG";
 import Carousel from "react-bootstrap/Carousel";
 
 export default class Packages extends Component {
