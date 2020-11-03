@@ -17,6 +17,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem";
 import CardDeck from "react-bootstrap/CardDeck";
 import Button from "react-bootstrap/Button";
+import { NavLink } from "react-router-dom";
 
 export default class Home extends Component {
   render() {
@@ -27,7 +28,7 @@ export default class Home extends Component {
         }}
       >
         {/* first photos */}
-        <Carousel>
+        <Carousel  className="mycarousel">
           <Carousel.Item>
             <img
               className="d-block w-100"
@@ -91,12 +92,12 @@ export default class Home extends Component {
             <h1
               className="experienceSA mt-4"
               style={{
-                fontFamily: "Script MT",
+                fontFamily: "Script",
               }}
             >
               Experience the Best of South Africa, Your Way
             </h1>
-<div className="container fluid">
+               <div className="container fluid">
             <div className="rectangle mt-4  " style={{display:"flex"}} >
               <div className=" ml-3 mr-3 mt-3" style={{height:"400px", display: "inline-block"}}>
                 <p style={{fontsize:"2vw"}}>
@@ -107,7 +108,7 @@ export default class Home extends Component {
                 <h1
                   className="unique"
                   style={{
-                    fontFamily: "Script MT",
+                    fontFamily: "Script ",
                   }}
                 >
                   Unique and Unforgettable Adventures
@@ -125,7 +126,7 @@ export default class Home extends Component {
                 <h1
                   className="wonder"
                   style={{
-                    fontFamily: "Script MT",
+                    fontFamily: "Script",
                   }}
                 >
                   Wondering What to do in Cape Town?
@@ -155,7 +156,7 @@ export default class Home extends Component {
           <div
             className="container"
             style={{
-              fontFamily: "Script MT",
+              fontFamily: "Script",
             }}
           >
             <h1>Our Tour Packages</h1>
@@ -165,8 +166,8 @@ export default class Home extends Component {
         {/* Rating */}
         <CardDeck className="m-4 p-0" style={{
           }} >
-          <Card  style={{ width: "16rem",background:" rgba(123, 81, 69, 0.82)" }}>
-            <Card.Img style={{ width: "100%", height: "15vw", objectFit: "cover" }}
+          <Card  style={ {background:" rgba(123, 81, 69, 0.82)" }}>
+            <Card.Img
          src={penguin} />
             <Card.Body>
               <Card.Title style={{textalign: "center"}}>CAPE TOWN  – 4DAY TOUR PACKAGE</Card.Title>
@@ -176,22 +177,17 @@ export default class Home extends Component {
                 guides who deliver the perfect blend of wine and scenery as you
                 vacation away in Cape Town.
 
-                Highlights
-●	Cape Peninsula Tour  
-●	Cape of Good Hope 
-●	 Cape Point 
-●	 Table Mountain Cable Car Ride  
-●	 Hout Bay Boat Ride to Seal Colony
-●	 Ostrich Farm
-●	 Penguin Colony 
+     
 
               </Card.Text>
               <ListGroup className="list-group-flush">
             <ListGroupItem>
+            <NavLink to={`/Packages`}>
             <Button  style={{
           backgroundColor: "#B8583B"}} >
             View More
           </Button>
+          </NavLink>
           <i className="fas fa-star ml-4"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i> 
             </ListGroupItem>
           
@@ -207,10 +203,12 @@ export default class Home extends Component {
               </Card.Text>
               <ListGroup className="list-group-flush">
             <ListGroupItem>
+            <NavLink to={`/Packages`}>
             <Button  style={{
           backgroundColor: "#B8583B"}} >
-           View More
+            View More
           </Button>
+          </NavLink>
           <i className="fas fa-star ml-4"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i> 
             </ListGroupItem>
           
@@ -226,10 +224,12 @@ export default class Home extends Component {
               </Card.Text>
               <ListGroup className="list-group-flush">
             <ListGroupItem>
+          <NavLink to={`/Packages`}>
             <Button  style={{
           backgroundColor: "#B8583B"}} >
             View More
           </Button>
+          </NavLink>
           <i className="fas fa-star ml-4"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i>  <i className="fas fa-star"  style={{ color: '#F4A261' }} ></i> 
             </ListGroupItem>
           

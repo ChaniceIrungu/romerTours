@@ -7,11 +7,11 @@ export default class Destination extends Component {
   };
 
   render() {
-    return <div>
+    return <div style={{
+      fontFamily: "Script",
+    }}>
       
-      <h1 style={{
-                fontFamily: "Ruda",
-              }}>Best Holiday Packages around Cape Town and Garden Route</h1>
+      <h1 >Best Holiday Packages around Cape Town and Garden Route</h1>
               <hr></hr>
       <p>
 We are a world-renowned tour company based in the Western Cape. At Romer Tours, we provide daily guided tours and the best travel packages in and around Cape Town and Garden Route. We are your local tour guides, born and bred in Cape Town and with an in-depth knowledge of the city.

@@ -24,7 +24,7 @@ style={{
 <Navbar.Brand className="ml-10">
   <img src={logosvg} alt="logosvg" /> 
 </Navbar.Brand>
-<Navbar.Toggle aria-controls="responsive-navbar-nav" />
+
 <Nav.Link as={NavLink} to="/" className="Home" style={{
   color:"White"}}><span><i class="fas fa-home mr-1"></i></span> 
 <strong>Home</strong>

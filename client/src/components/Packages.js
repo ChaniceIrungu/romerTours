@@ -18,13 +18,11 @@ export default class Packages extends Component {
 
   render() {
     return (
-      <div style={{ color: '#63312D'}}>
+      <div style={{ color: '#63312D', fontFamily: "Script"}}>
         <div className="packagesRec2 mt-4">
           <div
             className="container"
-            style={{
-              fontFamily: "",
-            }}
+            
           >
             <h1 style={{ color: 'White'}}>Our Tour Packages</h1>
           </div>
@@ -43,7 +41,7 @@ export default class Packages extends Component {
         
         <div className="row">
           <div className="col">
-          <Carousel>
+          <Carousel className="mycoursel ">
           <Carousel.Item>
             <img
               className="d-block w-100"
@@ -211,11 +209,11 @@ Cape Flats: The so-called ‘Coloured and ‘Indian’ Group Areas, former resid
           </div>
           </div>
       
-      <h2>1.	BIG 5 SAFARI TRANSFERS</h2>
+      <h4>1.	BIG 5 SAFARI TRANSFERS</h4>
       We arrange transfers to Fairy Glen or Aquila Safari Private Game Reserves. These are malaria-free Game Reserves, less than two hour’s drive from Cape Town.  
 View South Africa’s Big 5 from an open vehicle Game Drive.
 
-      <h2>2.	CTI AIRPORT TRANSFERS</h2>
+      <h4>2.	CTI AIRPORT TRANSFERS</h4>
       We arrange Airport Transfers to and from Cape Town International Airport for individuals, couples or groups
       </div>
     );

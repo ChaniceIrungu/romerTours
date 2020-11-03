@@ -16,7 +16,7 @@ style={{
 ><div className="container">
         <div className="row">
           <div className="col">
-            <h4> Romer Tours</h4>
+            <h5> Romer Tours</h5>
             <ul className="list-unstyled">
               <li>+27 83 261 0651</li>
             </ul>
@@ -28,7 +28,7 @@ style={{
             </ul>
           </div>
           <div className="col">
-            <h4>Contact Us</h4>
+            <h5>Contact Us</h5>
             <ul className="list-unstyled">
               <li>Fax: +27 21 703 2298</li>
             </ul>
